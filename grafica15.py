@@ -8,8 +8,8 @@ x=datos[:,1]
 y=datos[:,2]
 
 plt.figure()
-plt.plot(t,y, 'c')
+plt.plot(x,y, 'c')
 plt.title("Trayectoria x y de particula")
-plt.xlabel("t(s)")
-plt.ylabel("F")
+plt.xlabel("x")
+plt.ylabel("y")
 plt.savefig("BelloAna_Final_15.pdf")
